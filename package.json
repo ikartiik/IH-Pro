@@ -1,33 +1,33 @@
 {
-  "name": "docuforge",
-  "version": "0.1.0",
+  "name": "docuvault",
+  "version": "1.0.0",
+  "description": "DocuVault - Document Manager with MongoDB",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "@auth/mongodb-adapter": "^3.11.1",
-    "@hookform/resolvers": "^5.2.2",
-    "@react-pdf/renderer": "^4.3.2",
-    "@types/bcryptjs": "^2.4.6",
-    "bcryptjs": "^3.0.3",
-    "mongoose": "^9.3.3",
-    "next": "16.2.2",
-    "next-auth": "^4.24.13",
-    "react-dropzone": "^15.0.0",
-    "react-hook-form": "^7.72.0",
-    "zod": "^4.3.6"
+    "next": "14.0.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "mongodb": "^6.6.2",
+    "next-auth": "^4.24.5",
+    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.0"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
+    "typescript": "^5",
     "@types/node": "^20",
-    "@types/react": "^19",
-    "autoprefixer": "^10.4.27",
-    "eslint": "^9",
-    "eslint-config-next": "16.2.2",
-    "tailwindcss": "^4",
-    "typescript": "^5"
+    "@types/react": "^18",
+    "@types/react-dom": "^18"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
